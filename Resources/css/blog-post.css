@@ -1,0 +1,180 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background-color: #ededed;
+}
+
+h1{
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4ex;
+}
+
+h2{
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3ex;
+  text-align: center;
+}
+
+p{
+  color: #708090;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mt-4{
+  margin-bottom: 1.5rem;
+}
+
+
+.navbar{
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-dark .navbar-brand {
+  background-color: #4aaaa5;
+  padding-left: 2ex;
+  padding-right: 2ex;
+  padding-top: 0.6ex;
+  padding-bottom: 0.6ex;
+
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:gray;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:black;
+  background-color: whitesmoke;
+}
+
+.navbar-dark .navbar-nav .nav-link:visited{
+  color:gray;
+}
+
+.dropdown-item{
+  color:gray;
+}
+
+.col-lg-8{
+  background-color: white;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  height: 100%;
+}
+
+.col-lg-12{
+  background-color: white;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  height: 100%;
+}
+
+.card-body{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.card .my-4{
+  background-color: white;
+}
+
+.card-header{
+  background-color: white ;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.5ex;
+  padding-top: 1.5ex;
+  padding-bottom: 1.5ex;
+}
+
+.image-active-left{
+  border: 2px solid #4aaaa5;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.image-active-right{
+  border: 2px solid #4aaaa5;
+  margin-bottom: 5px;
+}
+
+
+.my-image-post{
+  width: 50%;
+  float:left;
+}
+
+.my-image-det{
+  width: 60%;
+  margin: auto;
+}
+
+
+.my-image{
+  width:100%;
+}
+
+.my-image:hover{
+  border: 3px solid #4aaaa5;
+  width: 90%;
+}
+
+.hr-footer{
+    border: none;
+    margin-top: 0px;
+    height: 10px;
+    /* Set the hr color */
+    color: #4aaaa5; /* old IE */
+    background-color: #4aaaa5; /* Modern Browsers */
+}
+
+.py-3{
+  padding-top: 0px !important;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .my-container{
+  margin: 0px;
+  max-width: 767px;
+  width: 100% !important;
+}
+
+
+  .navbar{
+    background-color:#4aaaa5;
+  }
+
+  .navbar-dark .navbar-toggler{
+    border-color: white;
+    margin-right:15px;
+  }
+
+  .dropdown-menu{
+    background-color: white;
+    border-color: transparent;
+  }
+
+  .navbar-collapse{
+    background-color:white;
+    padding-left: 40px;
+    width: 100%;
+  }
+
+}
